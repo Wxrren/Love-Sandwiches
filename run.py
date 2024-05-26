@@ -138,6 +138,7 @@ def get_stock_values(data):
     return stock_dict
     
 stock_values = get_stock_values(stock_data)
+print("Make the following numbers of sandwiches for next market\n")
 print(stock_values)
     
     
